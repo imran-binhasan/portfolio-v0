@@ -75,7 +75,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-44 lg:bottom-12 animate-bounce">
+        <div className="hidden md:flex absolute left-[49%] bottom-44 lg:bottom-12 animate-bounce mx-auto text-center">
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>
