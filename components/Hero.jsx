@@ -14,7 +14,7 @@ import DevImg from "./DevImg";
 
 const Hero = () => {
   return (
-    <section className="py-12 lg:py-24 bg-hero h-[84vh] lg:pt-28 bg-bottom bg-cover bg-no-repeat dark:bg-none">
+    <section className="py-12 lg:py-24 bg-hero h-[800px] sm:h-[960px] md:h[1200px] lg:pt-28 bg-bottom bg-cover bg-no-repeat dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto lg:mx-0 text-center lg:text-left space-y-5 mt-10">
@@ -47,10 +47,10 @@ const Hero = () => {
               containerStyles="flex gap-x-6 mx-auto lg:mx-0"
               iconStyles="text-foreground text-[22px] hover:text-primary transition-all "
             />
-            <div className="relative lg:hidden mx-auto w-3/4 sm:w-3/5 text-center ">
-              <img src="/hero/developer.png" alt="" className="absolute" /></div>
-
-          </div>
+            <div className=" lg:hidden mx-auto max-w-xs text-center ">
+              <img src="/hero/developer.png" alt="" className=" md:mt-20" />
+            </div>
+            </div>
           <div className="hidden relative lg:flex">
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]"
