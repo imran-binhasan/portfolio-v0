@@ -5,39 +5,35 @@ import { useState } from "react";
 
 const projectData = [
   {
-    image: "/work/3.png",
-    category: "Frontend",
-    name: "lingo fox",
-    description:
-      "Lingo fox a is a language learning web app to ease our learning",
-    link: "/",
-    github: "/",
-  },
-  {
     image: "/work/1.png",
-    category: "Backend",
-    name: "dashboard fox",
-    description:
-      "Lingo fox a is a language learning web app to ease our learning",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/4.png",
-    category: "Fullstack",
-    name: "nestivo",
-    description:
-      "Lingo fox a is a language learning web app to ease our learning",
-    link: "/",
+    category: "Frontend",
+    name: "Lingo Fox",
+    description: "Lingo Fox is a user-friendly web app designed to make language learning simple and engaging.",
+    link: "https://lingo-fox.netlify.app/",
     github: "/",
   },
   {
     image: "/work/2.png",
     category: "Fullstack",
-    name: "visa glide",
-    description:
-      "Lingo fox a is a language learning web app to ease our learning",
-    link: "/",
+    name: "Lodgio",
+    description: "Lodgio is a comprehensive online platform for seamless hotel booking experiences.",
+    link: "https://lodgio.netlify.app/",
+    github: "/",
+  },
+  {
+    image: "/work/3.png",
+    category: "Frontend",
+    name: "Gadget Heaven",
+    description: "Gadget Heaven is a modern e-commerce platform offering a wide range of electronics and gadgets.",
+    link: "https://gadget-h.netlify.app/",
+    github: "/",
+  },
+  {
+    image: "/work/4.png",
+    category: "Fullstack",
+    name: "Visa Glide",
+    description: "Visa Glide simplifies the visa application process with a streamlined, online platform.",
+    link: "https://visa-glide.netlify.app/",
     github: "/",
   },
 ];
@@ -46,7 +42,6 @@ const uniqueCategories = [
   "All Projects",
   ...new Set(projectData.map((each) => each.category)),
 ];
-console.log(uniqueCategories);
 
 const Projects = () => {
   const [categories, setCategories] = useState(uniqueCategories);
@@ -54,7 +49,6 @@ const Projects = () => {
   const filteredProjects = projectData.filter(project => {
     return category === 'All Projects'? project: project.category === category;
   });
-  console.log(filteredProjects)
   return (
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">

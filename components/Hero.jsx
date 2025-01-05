@@ -35,15 +35,21 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
+              <Link href='https://drive.google.com/uc?export=download&id=1a0Xrn2ri8TxOPvF6e4trQSY8t20vC__F'>
               <Button className="gap-x-2 h-11/12 my-auto">
-                Download CV
-                <Download size={18} />
+              Download CV
+              <Download size={18} />
               </Button>
+              </Link>
+             
             </div>
             <Socials
               containerStyles="flex gap-x-6 mx-auto lg:mx-0"
               iconStyles="text-foreground text-[22px] hover:text-primary transition-all "
             />
+            <div className="relative lg:hidden mx-auto w-3/4 sm:w-3/5 text-center ">
+              <img src="/hero/developer.png" alt="" className="absolute" /></div>
+
           </div>
           <div className="hidden relative lg:flex">
             <Badge

@@ -4,7 +4,6 @@ import { Card, CardHeader } from "./ui/card";
 import Image from "next/image";
 import { Link2Icon,Github } from "lucide-react";
 const ProjectCard = ({ project }) => {
-  console.log({ project });
   return (
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
