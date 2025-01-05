@@ -40,11 +40,32 @@ const infoData = [
 
 const qualificationData = [
   {
-    university: "Presidency University",
-    qualification: "Bachelor of Science",
-    years: 2024,
+    title: "education",
+    data: [
+      {
+        university: "Presidency University",
+        degree: "Bachelor of Science",
+        years: '2024 - Present',
+      },
+    ],
+  },
+  {
+    title: "experience",
+    data: [
+      {
+        company: "Local Market",
+        role: "Full Stack Web Developer",
+        years: '2024 - Present',
+      },
+      {
+        company: "Fiverr",
+        role: "Frontend Developer",
+        years: 2024,
+      },
+    ],
   },
 ];
+
 
 const About = () => {
   const getData = (arr, title) => {
@@ -106,7 +127,66 @@ const About = () => {
                   </div>
                 </TabsContent>
                 <TabsContent value="qualifications">
-                  Qualifications Info
+                  <div>
+                  <h3 className="text-xl lg:text-2xl font-semibold">
+                      Unmatched Service Quality for Over 2 Years
+                    </h3>
+                  </div>
+                 {/* experience & education wrapper */}
+                  <div className="grid md:grid-cols-2 gap-y-4">
+                    {/* experience */}
+                    <div className="flex flex-col gap-y-4">
+                    <div className="flex gap-x-4 items-center mt-2 .text-[22px] text-primary">
+                      <Briefcase/>
+                      <h4 className="capitalize font-medium">
+                        {getData(qualificationData, 'experience').title}
+                      </h4>
+                    </div>
+                    <div className="flex flex-col gap-y-8">
+                    {getData(qualificationData, 'experience').data.map((item,index) => {
+                      const {company,role,years} = item
+                      return (
+                        <div className="flex gap-x-8 group py-2" key={index}>
+                          <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                            <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                          </div>
+                          <div>
+                            <h3 className="font-semibold text-xl leading-none mb-2">{company}</h3>
+                            <p className="text-lg leading-none text-muted-foreground">{role}</p>
+                            <p className="text-base font-medium mt-1">{years}</p>
+                          </div>
+                        </div>
+                      )
+                    })}
+                    </div>
+                    </div>
+                    {/* education */}
+                    <div className="flex flex-col gap-y-4">
+                    <div className="flex gap-x-4 items-center mt-2 .text-[22px] text-primary">
+                      <GraduationCap size={28}/>
+                      <h4 className="capitalize font-medium">
+                        {getData(qualificationData, 'education').title}
+                      </h4>
+                    </div>
+                    <div className="flex flex-col gap-y-8">
+                    {getData(qualificationData, 'education').data.map((item,index) => {
+                      const {university,degree,years} = item
+                      return (
+                        <div className="flex gap-x-8 group py-2" key={index}>
+                          <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                            <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                          </div>
+                          <div>
+                            <h3 className="font-semibold text-xl leading-none mb-2">{university}</h3>
+                            <p className="text-lg leading-none text-muted-foreground mt-1">{degree}</p>
+                            <p className="text-base font-medium">{years}</p>
+                          </div>
+                        </div>
+                      )
+                    })}
+                    </div>
+                    </div>
+                  </div>
                 </TabsContent>
               </div>
             </Tabs>
