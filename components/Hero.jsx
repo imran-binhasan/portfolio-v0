@@ -25,8 +25,7 @@ const Hero = () => {
               Hi, I'm Emran Bin Hasan
             </h2>
             <p className="text-muted-foreground text-lg mb-6  font-light w-11/12">
-              I'm a developer with no experince ,but im not some bogichogi
-              developer.Im im enthusiasic about earning dollars
+            I am a developer with a passion for technology and a strong desire to learn. Despite being early in my career, I am dedicated to making a positive impact through continuous growth and innovation. I am enthusiastic about opportunities to grow and contribute to meaningful projects.
             </p>
             <div className="flex flex-col gap-y-2 md:flex-row gap-x-3 mx-auto lg:mx-0 mb-12">
               <Link href="/contact">
