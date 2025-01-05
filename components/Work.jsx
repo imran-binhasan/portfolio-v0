@@ -53,7 +53,7 @@ const Work = () => {
     <section className="relative mb-12 xl:mb-48">
         <div className="container mx-auto">
             <div className=" max-w-[400px] mx-auto lg:mx-0 text-center lg:text-left mb-10 lg:h-[400px] flex flex-col justify-center lg:items-start">
-                <h2 className="section-title mb-4 mx-auto">Latest Projects</h2>
+                <h2 className="section-title mb-4">Latest Projects</h2>
                 <p className="mb-8 subtitle mx-auto">Lorem, ipsum dolor sit amet consectetur</p>
                 <Link className='mx-auto text-center' href='/projects'>
                 <Button >All Projects</Button>
