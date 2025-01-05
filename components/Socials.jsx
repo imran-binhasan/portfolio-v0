@@ -4,23 +4,23 @@ import {
   RiLinkedinFill,
   RiGithubFill,
   RiFacebookFill,
-  RiInstallFill} from 'react-icons/ri'
+} from 'react-icons/ri'
   import Link from 'next/link';
   const icons = [
     {
-      path:'/',
+      path:'https://github.com/emran-binhasan',
       name: <RiGithubFill/>
     },
     {
-      path:'/',
+      path:'https://web.facebook.com/emran.bin.hasan.2024/',
       name: <RiFacebookFill/>
     },
     {
-      path:'/',
+      path:'https://www.linkedin.com/in/emran-binhasan/',
       name: <RiLinkedinFill/>
     },
     {
-      path:'/',
+      path:'https://www.youtube.com/emran-binhasan',
       name: <RiYoutubeFill/>
     }
   ]
