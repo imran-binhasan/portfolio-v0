@@ -16,9 +16,7 @@ const Contact = () => {
               Let's Work Together
             </h1>
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              eligendi consequuntur! Animi veniam quas modi temporibus velit
-              adipisci facilis deleniti.
+            I’d love to hear from you! Whether you have a project in mind, want to discuss ideas, or just want to say hello, feel free to reach out. Let’s connect and make something great together.
             </p>
           </div>
           <div className="hidden lg:flex w-full bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
