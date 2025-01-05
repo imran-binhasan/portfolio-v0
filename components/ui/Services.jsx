@@ -31,7 +31,7 @@ const Services = () => {
     return (
         <section className='mb-12 lg:mb-26'>
             <div className="container mx-auto">
-                <h2 className="section-title mb-12 lg:mb-18 text-center mx-auto">
+                <h2 className="section-title mb-12 lg:mb-18 text-center">
                     My Services
                 </h2>
                 <div className='grid lg:grid-cols-3 justify-center gap-y-12 lg:gap-y-8 mx-auto text-center'>

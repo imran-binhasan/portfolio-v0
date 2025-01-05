@@ -74,7 +74,7 @@ const About = () => {
   return (
     <section className="lg:h-[800px] pb-12 lg:py-16">
       <div className="container mx-auto border p-4">
-        <h2 className="section-title mb-8 lg:mb-16 text-center mx-auto">
+        <h2 className="section-title mb-6 lg:mb-16 text-center">
           About Me
         </h2>
         <div className="flex flex-col lg:flex-row gap-2">
