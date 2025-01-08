@@ -56,7 +56,7 @@
 ### 1. Clone the repository:
 Clone the project repository to your local machine by running the following command in your terminal:
 
-git clone [https://github.com/emran-binhasan/dev-emran](https://github.com/emran-binhasan/dev-emran.git)
+git clone https://github.com/emran-binhasan/dev-emran.git
 
 
 
