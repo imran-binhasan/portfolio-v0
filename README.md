@@ -51,14 +51,41 @@
 - `zod`: ^3.24.1
 
 ---
+## Local Setup Guide:
 
-### Local Setup Guide:
-1. Clone the repository:
-   ```bash
-   git clone <your-repository-link>
-2.Install dependencies:
-    npm install
-3.Start the local development server:
-    npm run dev
+### 1. Clone the repository:
+Clone the project repository to your local machine by running the following command in your terminal:
 
-# Live Link: https://dev-emran.vercel.app
+git clone [https://github.com/emran-binhasan/dev-emran](https://github.com/emran-binhasan/dev-emran.git)
+
+
+
+### 2. Navigate to the project directory:
+Once the repository is cloned, navigate into the project folder:
+
+cd <your-project-folder>
+
+### 3. Install dependencies:
+Install all the necessary dependencies for the project by running:
+
+npm install
+
+
+### 5. Run the local development server:
+After installing the dependencies and setting up any environment variables, start the local development server by running:
+
+npm run dev
+
+By default, the project will be available at `http://localhost:3000`.
+
+
+
+
+
+---
+
+## Live Link:
+Once the setup is complete and everything is running locally, you can view your project live at:
+
+[https://dev-emran.vercel.app](https://dev-emran.vercel.app)
+
