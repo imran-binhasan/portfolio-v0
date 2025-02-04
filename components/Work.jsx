@@ -9,38 +9,30 @@ import { Pagination } from 'swiper/modules';
 import ProjectCard from "./ProjectCard";
 
 const projectData = [
-    {
-      image: "/work/1.png",
-      category: "Frontend",
-      name: "Lingo Fox",
-      description: "Lingo Fox is a user-friendly web app designed to make language learning simple and engaging.",
-      link: "https://lingo-fox.netlify.app/",
-      github: "/",
-    },
-    {
-      image: "/work/2.png",
-      category: "Fullstack",
-      name: "Lodgio",
-      description: "Lodgio is a comprehensive online platform for seamless hotel booking experiences.",
-      link: "https://lodgio.netlify.app/",
-      github: "/",
-    },
-    {
-      image: "/work/3.png",
-      category: "Frontend",
-      name: "Gadget Heaven",
-      description: "Gadget Heaven is a modern e-commerce platform offering a wide range of electronics and gadgets.",
-      link: "https://gadget-h.netlify.app/",
-      github: "/",
-    },
-    {
-      image: "/work/4.png",
-      category: "Fullstack",
-      name: "Visa Glide",
-      description: "Visa Glide simplifies the visa application process with a streamlined, online platform.",
-      link: "https://visa-glide.netlify.app/",
-      github: "/",
-    },
+  {
+    image: "/work/0.png",
+    category: "FullStack",
+    name: "FitStat",
+    description: "FitStat is a fitness platform for hiring trainers, booking classes, and tracking progress to achieve fitness goals.",
+    link: "https://fitstat.netlify.app/",
+    github: "https://github.com/emran-binhasan/fitstat-client",
+  },
+  {
+    image: "/work/2.png",
+    category: "Fullstack",
+    name: "Lodgio",
+    description: "Lodgio is a comprehensive online platform for seamless hotel booking experiences.",
+    link: "https://lodgio.netlify.app/",
+    github: "https://github.com/emran-binhasan/lodgio-client",
+  },
+  {
+    image: "/work/4.png",
+    category: "Fullstack",
+    name: "Visa Glide",
+    description: "Visa Glide simplifies the visa application process with a streamlined, online platform.",
+    link: "https://visa-glide.netlify.app/",
+    github: "/",
+  },
   ];
   
 
