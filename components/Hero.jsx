@@ -41,7 +41,7 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
-              <Link href="https://drive.google.com/uc?export=download&id=1a0Xrn2ri8TxOPvF6e4trQSY8t20vC__F">
+              <Link href="https://drive.google.com/uc?export=download&id=1U11QBjsqkfZCB69_q5WzQRjo2wjenlSj">
                 <Button className="gap-x-2 h-11/12 my-auto">
                   Download CV
                   <Download size={18} />
@@ -57,21 +57,21 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[24%] z-20 -left-[5rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={2}
-              badgeText="Years Of Experience"
+              endCountNum={6}
+              badgeText="Months Of Experience"
               className="bg-red-600"
             />
             <Badge
               containerStyles="absolute top-[80%] z-20   -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={300}
+              endCountNum={15}
               badgeText="Finished Projects"
               className="bg-red-600"
             />
             <Badge
               containerStyles="absolute top-[55%] z-20  -right-8"
               icon={<RiTeamFill />}
-              endCountNum={210}
+              endCountNum={3}
               badgeText="Happy Clients"
               className="bg-red-600"
             />
