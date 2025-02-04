@@ -13,7 +13,7 @@ const Badge = ({
             <div className="font-semibold text-4xl leading-none text-primary">
                 <CountUp end={endCountNum} delay={1.4} duration={4}/>
             </div>
-            <div>{badgeText}</div>
+            <div className="dark:text-gray-600 dark:font-medium">{badgeText}</div>
            </div>
         </div>
     );
