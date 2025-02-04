@@ -8,7 +8,7 @@ const projectData = [
     image: "/work/0.png",
     category: "FullStack",
     name: "FitStat",
-    description: "FitStat is a fitness tracking app that helps users monitor workouts, track stats, and achieve goals with features like authentication, data visualization, and payment integration.",
+    description: "FitStat is a fitness platform for hiring trainers, booking classes, and tracking progress to achieve fitness goals.",
     link: "https://fitstat.netlify.app/",
     github: "https://github.com/emran-binhasan/fitstat-client",
   },
