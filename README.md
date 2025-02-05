@@ -4,7 +4,7 @@
 **Description:** This is a personal portfolio built with Next.js, Tailwind CSS, and ShadCN. It showcases my skills as a Full-Stack Web Developer, featuring my work, contact information, and other relevant details in a sleek, modern design.
 
 **Screenshot:**  
-(Add a screenshot here)
+![project screenshot](image.png)
 
 ---
 
