@@ -22,7 +22,7 @@ const projectData = [
   },
   {
     image: "/work/2.png",
-    category: "Fullstack",
+    category: "FullStack",
     name: "Lodgio",
     description: "Lodgio is a comprehensive online platform for seamless hotel booking experiences.",
     link: "https://lodgio.netlify.app/",
@@ -38,7 +38,7 @@ const projectData = [
   },
   {
     image: "/work/4.png",
-    category: "Fullstack",
+    category: "FullStack",
     name: "Visa Glide",
     description: "Visa Glide simplifies the visa application process with a streamlined, online platform.",
     link: "https://visa-glide.netlify.app/",
