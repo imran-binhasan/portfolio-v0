@@ -120,8 +120,7 @@ const Page = async ({ params }) => {
         },
         {
           title: "Advanced State Management",
-          description:
-            "Using Redux or Context API for managing states",
+          description: "Using Redux or Context API for managing states",
         },
       ],
       link: "https://gadget-h.netlify.app/",
@@ -177,8 +176,8 @@ const Page = async ({ params }) => {
   } = data[0] || {};
 
   return (
-    <div className="w-full flex py-4 px-10 gap-10 justify-between my-5">
-      <Card className="group w-[500px] h-[500px] overflow-hidden relative">
+    <div className="w-full flex-col md:flex-row flex py-4 px-10 gap-10 justify-between my-5">
+      <Card className="group w-full  md:w-[500px] md:h-[500px] overflow-hidden relative">
         <CardHeader className="p-0">
           <div className="relative w-full h-[500px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 lg:bg-work_project_bg_light lg:dark:bg-work_project_bg_dark lg:bg-[110%] bg-no-repeat overflow-hidden">
             <Image
@@ -224,19 +223,27 @@ const Page = async ({ params }) => {
         </span>
         <div>
           <p className="font-medium">Challenges faced: </p>
-          {challenges.length > 0 && challenges.map((each, index) => (
-            <span className="text-gray-800 flex flex-col gap-4 ml-6" key={index}>
-              <span>
-                <span className="font-medium">{each?.title}</span>:{" "}
-                <span>{each?.description}</span>
+          {(challenges.length > 0 &&
+            challenges.map((each, index) => (
+              <span
+                className="text-gray-800 flex flex-col gap-4 ml-6"
+                key={index}
+              >
+                <span>
+                  <span className="font-medium">{each?.title}</span>:{" "}
+                  <span>{each?.description}</span>
+                </span>
               </span>
-            </span>
-          )) || "N/A"}
+            ))) ||
+            "N/A"}
         </div>
         <div>
           <p className="font-medium">Potential Improvements: </p>
           {improvements?.map((each, index) => (
-            <span className="text-gray-800 flex flex-col gap-4 ml-6" key={index}>
+            <span
+              className="text-gray-800 flex flex-col gap-4 ml-6"
+              key={index}
+            >
               <span>
                 <span className="font-medium">{each?.title}</span>:{" "}
                 <span>{each?.description}</span>
