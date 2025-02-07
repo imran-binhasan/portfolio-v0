@@ -179,7 +179,7 @@ const Page = async ({ params }) => {
     <div className="w-full flex-col md:flex-row flex py-4 px-10 gap-10 justify-between my-5">
       <Card className="group w-full  md:w-[500px] md:h-[500px] overflow-hidden relative">
         <CardHeader className="p-0">
-          <div className="relative w-full h-[500px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 lg:bg-work_project_bg_light lg:dark:bg-work_project_bg_dark lg:bg-[110%] bg-no-repeat overflow-hidden">
+          <div className="relative w-full h-[380px] md:h-[500px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 lg:bg-work_project_bg_light lg:dark:bg-work_project_bg_dark lg:bg-[110%] bg-no-repeat overflow-hidden">
             <Image
               className="absolute bottom-0 shadow-2xl"
               width={400}
@@ -226,7 +226,7 @@ const Page = async ({ params }) => {
           {(challenges.length > 0 &&
             challenges.map((each, index) => (
               <span
-                className="text-gray-800 flex flex-col gap-4 ml-6"
+                className=" flex flex-col gap-4 ml-6"
                 key={index}
               >
                 <span>
@@ -241,7 +241,7 @@ const Page = async ({ params }) => {
           <p className="font-medium">Potential Improvements: </p>
           {improvements?.map((each, index) => (
             <span
-              className="text-gray-800 flex flex-col gap-4 ml-6"
+              className=" flex flex-col gap-4 ml-6"
               key={index}
             >
               <span>
