@@ -2,8 +2,9 @@ import Link from "next/link";
 import { Badge } from "./ui/badge";
 import { Card, CardHeader } from "./ui/card";
 import Image from "next/image";
-import { Link2Icon,Github } from "lucide-react";
+import { Link2Icon,Github, Eye } from "lucide-react";
 const ProjectCard = ({ project }) => {
+  console.log(project)
   return (
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
@@ -26,6 +27,11 @@ const ProjectCard = ({ project }) => {
             className="bg-secondary w-[45px] h-[45px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-90 transition-all duration-300"
             href={project.github}>
             <Github className="text-white"/>
+            </Link>
+            <Link 
+            className="bg-secondary w-[45px] h-[45px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-90 transition-all duration-300"
+            href={`/projects/${project.id}`}>
+            <Eye className="text-white"/>
             </Link>
           </div>
         </div>
