@@ -6,6 +6,7 @@ import { useState } from "react";
 const projectData = [
   {
     image: "/work/0.png",
+    id:1,
     category: "FullStack",
     name: "FitStat",
     description: "FitStat is a fitness platform for hiring trainers, booking classes, and tracking progress to achieve fitness goals.",
@@ -14,6 +15,7 @@ const projectData = [
   },
   {
     image: "/work/1.png",
+    id:2,
     category: "Frontend",
     name: "Lingo Fox",
     description: "Lingo Fox is a user-friendly web app designed to make language learning simple and engaging.",
@@ -22,6 +24,7 @@ const projectData = [
   },
   {
     image: "/work/2.png",
+    id:3,
     category: "FullStack",
     name: "Lodgio",
     description: "Lodgio is a comprehensive online platform for seamless hotel booking experiences.",
@@ -31,6 +34,7 @@ const projectData = [
   {
     image: "/work/3.png",
     category: "Frontend",
+    id:4,
     name: "Gadget Heaven",
     description: "Gadget Heaven is a modern e-commerce platform offering a wide range of electronics and gadgets.",
     link: "https://gadget-h.netlify.app/",
@@ -39,6 +43,7 @@ const projectData = [
   {
     image: "/work/4.png",
     category: "FullStack",
+    id:5,
     name: "Visa Glide",
     description: "Visa Glide simplifies the visa application process with a streamlined, online platform.",
     link: "https://visa-glide.netlify.app/",
